@@ -1190,3 +1190,24 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-icon {
+  font-size: 150px;
+  margin: 50px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
