@@ -87,7 +87,7 @@
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title" style="font-family: Karla; font-weight: 200; font-size: 30px; ">
+        <div class="section-title" style="font-family: Karla; font-weight: 200; font-size: 30px; padding-bottom: 100px; ">
           <h2>About</h2>
           <p>My interest in programming and software development began in 2015 when I took my first computational physics course at <a href="https://catalog.sjsu.edu/preview_program.php?catoid=2&poid=795&returnto=96" style="font-weight: 400;">San Jose State University</a>. I fell in love with using <b style="font-weight: 400;">Python</b> to model and simulate physical events and phenomena. After I left SJSU I began to explore programming and computer science further by taking courses in <b>C++</b>, <b>Java</b>, <b>Visual Basic</b>, <b>DS&A</b> and <b>computer architecture</b> at <a href="https://lavc.edu/csis/AA-Degrees/Computer-Science-(AS).aspx" style="font-weight: 400;">Los Angeles Valley College</a>. Later on at <a href="https://www.appacademy.io/course/software-engineer-online#curriculum" style="font-weight: 400;">App Academy</a> I accelerated my learning and fine-tuned my understanding of programming and computer science fundamentals and picked up some new skills along the way. Most recently I've used <b>JavaScript</b> and <b>Python</b> in conjunction with other technologies, libraries and frameworks like <b>React</b> / <b>Redux</b>, <b>Node.js</b>, <b>Express</b>, <b>Flask</b> and <b>PostgreSQL</b> to build responsive, feature-rich full stack applications.</p>
         </div>
@@ -98,7 +98,7 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Full Stack Software Engineer</h3>
-            <div class="row">
+            <div class="row" style="padding-bottom: 30px;">
               <div class="col-lg-6">
                 <ul>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
@@ -135,6 +135,7 @@
 
         <div class="section-title">
           <h2>Resume</h2>
+          <p style="font-family: Karla; font-weight: 400; font-size: 22px; padding-bottom: 15px;">Take a look at my resume to see more about my skills and experience.</p>
           <button type="button" class="btn btn-primary btn-lg outline" onclick="window.open('assets/Vyas_Alpesh_Resume.pdf', '_blank')">Resume</button>
 
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
@@ -191,6 +192,163 @@
       </div>
     </section> -->
     <!-- End Facts Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p style="font-family: Karla; font-weight: 400; font-size: 22px;">Check out some of the projects I've been working on!</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active"></li> <!--ALL -->
+              <li data-filter=".filter-app"></li><!--APP -->
+              <li data-filter=".filter-card"></li><!--CARD -->
+              <li data-filter=".filter-web"></li><!--WEB -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/slashline.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h6>Slash Line is a fantasy baseball app where users can create leagues and teams using real-time MLB team, player and game data.</h6>
+                <!-- <p>App</p> -->
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/slashline.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Enlarge"><i class="bx bx-plus"></i></a>
+                  <a href="https://slashline.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Live Site"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <span style="margin-top: 15px; font-family: Karla; font-weight: 400; font-size: 20px;">Slash Line</span>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/whatevernote.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h6>WhateverNote is a clone of the popular note taking app EverNote. Users can create, edit and delte notes, notebooks and tags to keep track of what's important</h6>
+                <!-- <p>Web</p> -->
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/whatevernote.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Enlarge"><i class="bx bx-plus"></i></a>
+                  <a href="https://whatevernote-app.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Live Site"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <span style="margin-top: 15px; font-family: Karla; font-weight: 400; font-size: 20px;">WhateverNote</span>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/codehunt.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h6>Code Hunt is an app modeled after Product Hunt where users can view and post videos about coding and programming languages. Users can also comment on posts and edit their profile.</h6>
+                <!-- <p>App</p> -->
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/codehunt.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Enlarge"><i class="bx bx-plus"></i></a>
+                  <a href="https://aa-codehunt.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Live Site"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <span style="margin-top: 15px; font-family: Karla; font-weight: 400; font-size: 20px;">Code Hunt</span>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/unsteepd.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Unsteepd</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/unsteepd.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="https://unsteepd.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div> -->
+    </section>
+    <!-- End Portfolio Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -521,163 +679,6 @@
       <!-- </div>
     </section> -->
     <!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p style="font-family: Karla; font-weight: 400; font-size: 22px;">Check out some of the projects I've been working on!</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active"></li> <!--ALL -->
-              <li data-filter=".filter-app"></li><!--APP -->
-              <li data-filter=".filter-card"></li><!--CARD -->
-              <li data-filter=".filter-web"></li><!--WEB -->
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/slashline.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h6>Slash Line is a fantasy baseball app where users can create leagues and teams using real-time MLB team, player and game data.</h6>
-                <!-- <p>App</p> -->
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/slashline.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Enlarge"><i class="bx bx-plus"></i></a>
-                  <a href="https://slash-line.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Live Site"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-            <span style="margin-top: 15px; font-family: Karla; font-weight: 400; font-size: 20px;">Slash Line</span>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/whatevernote.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h6>WhateverNote is a clone of the popular note taking app EverNote. Users can create, edit and delte notes, notebooks and tags to keep track of what's important</h6>
-                <!-- <p>Web</p> -->
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/whatevernote.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Enlarge"><i class="bx bx-plus"></i></a>
-                  <a href="https://whatevernote-app.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Live Site"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-            <span style="margin-top: 15px; font-family: Karla; font-weight: 400; font-size: 20px;">WhateverNote</span>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/codehunt.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h6>Code Hunt is an app modeled after Product Hunt where users can view and post videos about coding and programming languages. Users can also comment on posts and edit their profile.</h6>
-                <!-- <p>App</p> -->
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/codehunt.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Enlarge"><i class="bx bx-plus"></i></a>
-                  <a href="https://aa-codehunt.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Live Site"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-            <span style="margin-top: 15px; font-family: Karla; font-weight: 400; font-size: 20px;">Code Hunt</span>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/unsteepd.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Unsteepd</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/unsteepd.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="https://unsteepd.herokuapp.com/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div> -->
-    </section>
-    <!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
     <!-- <section id="services" class="services">
